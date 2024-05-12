@@ -12,8 +12,8 @@
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.4.2"
   },
-  "name": "aula_1",
-  "description": "aula intro sobre git",
+  "name": "projeto_calculadora",
+  "description": "calculadora",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
