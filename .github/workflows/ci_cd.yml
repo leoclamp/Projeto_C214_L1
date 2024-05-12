@@ -27,7 +27,7 @@ jobs:
               uses: actions/setup-node@v2
               with:
                 name: relatorio-teste
-                path: coverage/lcov-report
+                path: coverage/lcov-report/
 
     build:
       name: Build
