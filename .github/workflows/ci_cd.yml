@@ -21,7 +21,13 @@ jobs:
               run: npm i
 
             - name: Run unit tests
-              run: npm run test:unit
+              run: npm run test:unit:report
+
+            - name: Upload artefatos de teste
+              uses: actions/setup-node@v4
+              with:
+                name: relatorio-teste
+                path: coverage/lcov-report
 
     build:
       name: Build
